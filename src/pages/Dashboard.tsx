@@ -75,9 +75,7 @@ export function Dashboard() {
               <CardContent>
                 <div className="text-2xl font-bold">+23</div>
                 <p className="text-xs text-muted-foreground">
-                  <p className="text-xs text-muted-foreground">
-                    Riesgo de quedarse sin stock
-                  </p>
+                  Riesgo de quedarse sin stock
                 </p>
               </CardContent>
             </Card>
