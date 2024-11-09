@@ -1,9 +1,9 @@
 import * as React from "react";
 import {
   Building2,
-  DollarSign,
   LayoutDashboard,
   Package,
+  ShoppingBag,
   UsersRound,
 } from "lucide-react";
 
@@ -35,7 +35,7 @@ const data = {
     {
       title: "Ventas",
       url: "#",
-      icon: DollarSign,
+      icon: ShoppingBag,
       items: [
         {
           title: "Registrar venta",
