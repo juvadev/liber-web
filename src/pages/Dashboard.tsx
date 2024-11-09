@@ -1,3 +1,4 @@
+import { Chart01 } from "@/components/charts/chart-01";
 import { AppSidebar } from "@/components/sidebar/app-sidebar";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
@@ -20,8 +21,8 @@ export function Dashboard() {
             Tablero
           </div>
         </header>
-        <main className="flex flex-1 flex-col gap-4 p-4 md:gap-8 md:p-8">
-          <div className="grid gap-4 md:grid-cols-2 md:gap-8 lg:grid-cols-4">
+        <main className="flex flex-1 flex-col gap-4 p-4 md:gap-6 md:p-6 md:py-2 sm:py-2">
+          <div className="grid gap-4 md:grid-cols-2 md:gap-6 lg:grid-cols-4">
             <Card x-chunk="Displays total revenue in PEN and the percentage change compared to the previous month.">
               <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                 <CardTitle className="text-sm font-medium">
@@ -79,6 +80,11 @@ export function Dashboard() {
                 </p>
               </CardContent>
             </Card>
+          </div>
+          <div className="grid gap-4 md:gap-8 lg:grid-cols-3 xl:grid-cols-3">
+            <div className="lg:col-span-2 xl:col-span-2">
+              <Chart01 />
+            </div>
           </div>
         </main>
       </SidebarInset>
