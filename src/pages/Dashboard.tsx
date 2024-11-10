@@ -1,4 +1,5 @@
 import { Chart01 } from "@/components/charts/chart-01";
+import { Chart02 } from "@/components/charts/chart-02";
 import { AppSidebar } from "@/components/sidebar/app-sidebar";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
@@ -84,6 +85,9 @@ export function Dashboard() {
           <div className="grid gap-4 md:gap-8 lg:grid-cols-3 xl:grid-cols-3">
             <div className="lg:col-span-2 xl:col-span-2">
               <Chart01 />
+            </div>
+            <div className="lg:col-span-1 xl:col-span-1">
+              <Chart02 />
             </div>
           </div>
         </main>
