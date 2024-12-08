@@ -1,10 +1,4 @@
-import { Chart01 } from "@/components/charts/chart-01";
-import { Chart02 } from "@/components/charts/chart-02";
-import { Chart03 } from "@/components/charts/chart-03";
-import { Chart04 } from "@/components/charts/chart-04";
-import { Chart05 } from "@/components/charts/chart-05";
 import { AppSidebar } from "@/components/sidebar/app-sidebar";
-import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import {
   Card,
